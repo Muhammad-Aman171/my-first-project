@@ -1,0 +1,15 @@
+.btn button{
+    font-family: "Space Mono", monospace;
+    width: 140px;
+    height: 45px;
+    background-color: #FCB72B;
+    border-style: none;
+    border-color: #FFF4DF;
+    color: white;
+}
+.btn button:hover{
+    background-color: white;
+    color:  #FCB72B;    
+    cursor: pointer;
+    border: 2px solid #FCB72B;
+}

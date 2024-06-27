@@ -1,113 +1,101 @@
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
+import imgpath from '@/public/assets/Path 2.png'
+import arrimg from '@/public/assets/Group 8 Copy.png'
+import Mobileimg from '@/public/assets/Combined Shape.png'
+import Scooterimg from '@/public/assets/001-scooter.png'
+import Ridescooter from '@/public/assets/Combined Shape (1).png'
+import Bitmap2 from '@/public/assets/Bitmap 2.png'
+import Bitmap3 from '@/public/assets/Bitmap 3.png'
+import Bitmap4 from '@/public/assets/Bitmap 4.png'
 
-export default function Home() {
+
+import Button from './(components)/button/button'
+import Bubblesbtn from './(components)/bubbles/bubbles'
+import Availbility from './(components)/availbility/availbility'
+import HomeBody from './(components)/homeBody/homeBody'
+
+
+
+
+
+export default function page() {
+
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
+
+    <div>
+      <div className="homepage">
+        <div className={'heading'}>
+
+          <h1>Scooter sharing made simple</h1>
+          <div className={"linepara"}>
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
+              src={imgpath}
+              alt='path img does not show'
+              width={200}
+              id='img1'
+              height={1}
             />
-          </a>
+            <div className={"para"}>
+              <p>
+                Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!
+              </p>
+              <Button btnHeading="Get Scootin" />
+            </div>
+            <Image
+              src={arrimg}
+              alt='arrow img does not show'
+              width={350}
+              id='arrimg2'
+            />
+            <div className={'bubbles'}>
+              <Bubblesbtn />
+            </div>
+          </div>
+        </div>
+
+        {/* the header and navbar is completed */}
+
+        {/* the availbility is started */}
+
+        <div className={"availible"}>
+          <hr id='line1' />
+          <div className="availibility">
+            <Availbility imgsrc={Mobileimg} heading2="Locate with app" paragraph="Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. " />
+            <Availbility imgsrc={Scooterimg} heading2="Pick your scooter" paragraph="We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost." />
+            <Availbility imgsrc={Ridescooter} heading2="Enjoy the ride" paragraph="Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps." />
+          </div>
+        </div>
+
+        {/* the availbility is completed */}
+
+        {/* the homeBody is started */}
+        <div className={"homepage1"}>
+          <HomeBody h1Heading="Easy to use riding telemetry" paragraph="The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app." btnHeading="Learn More" />
+          <Image
+            src={Bitmap2} 
+            alt='bitmap img does not show'
+            id='bitmapimg2'
+          />
+        </div>
+        <div className="homepage2">
+          <Image
+            src={Bitmap3}
+            alt='bitmap img does not show'
+            id='bitmapimg3'
+          />
+          <HomeBody h1Heading="Coming to a city near you" paragraph="Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year." btnHeading="Learn More" />
+        </div>
+        <div className="homepage3">
+          <HomeBody h1Heading="Zero hassle payments" paragraph="Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month." btnHeading="Learn More" />
+          <Image
+            src={Bitmap4}
+            alt='bitmap img does not show'
+            id='bitmapimg4'
+          />
         </div>
       </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    </div>
+  )
 }

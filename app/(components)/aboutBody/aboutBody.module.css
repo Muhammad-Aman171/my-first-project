@@ -1,0 +1,19 @@
+.aboutBody{
+    height: 400px ;
+}
+.aboutHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+    width: 380px;
+    margin-top: 110px;
+}
+.aboutHeading h1{
+    color: #495567;
+    font: bolder 2rem  "space Mono",space Mono;
+}
+.aboutHeading p{
+    color: #939CAA;
+    font-size: small;
+}

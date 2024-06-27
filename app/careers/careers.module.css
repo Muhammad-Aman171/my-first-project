@@ -1,0 +1,50 @@
+.careersHeader {
+        height: 150px;
+        font: 3rem "Space Mono", Space Mono;
+        background: url(../../public/assets/Bitmap\ 12.png) no-repeat center/cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.careersHeader h1 {
+        color: white;
+        margin: 3% 0px 0px 8%;
+}
+
+
+
+.careersCard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 70px 50px;
+        height: 400px;
+
+}
+
+#bitmapImg13 {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 200px;
+}
+
+
+
+
+.careersHeading {
+        text-align: center;
+        color: #495567;
+        margin-top: 50px;
+        font: bold 3rem "Space Mono", Space Mono;
+}
+
+.careersCards {
+        display: flex;
+        justify-content: space-around;
+
+}

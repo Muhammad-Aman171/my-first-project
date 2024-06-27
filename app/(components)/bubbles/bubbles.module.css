@@ -1,0 +1,16 @@
+.span {
+    width: 250px;
+    height: 20px;
+    display: flex;
+}
+
+.circle:nth-child(3){
+    background-color: white;
+}
+.circle {
+    border: 1px solid white;
+    height: 50px ;
+    width: 50px;
+    border-radius: 50% ;
+    margin-left: 22px
+}

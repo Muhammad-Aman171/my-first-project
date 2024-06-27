@@ -1,0 +1,41 @@
+.navbar {
+    font-family: "Space Mono", monospace;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    /* background-color: #FCB72B; */
+}
+
+.heading {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.heading h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #495567;
+}
+
+.heading ul {
+    width: 275px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.heading ul{
+    cursor: pointer;
+
+}
+
+.heading ul li {
+    color: #939CAA;
+    font-size: small;
+}
+.heading ul li:hover {
+    color: #FCB72B;
+}
+

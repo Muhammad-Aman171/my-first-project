@@ -1,0 +1,127 @@
+
+
+.heading1{
+       
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0px ;
+}
+
+.heading1 h2 {
+        font-size: 2.5rem;
+        color: #495567;
+        font-family: "Space Mono", monospace;
+}
+
+
+.ques1 {
+        width: 45vw;
+        background-color: #F2F5F9;
+        display: flex;
+        margin: 10px 0px;
+        padding: 20px;
+        color: #495567;
+        flex-direction: column;
+}
+.ques1:hover{
+        background-color: #FFF4DF;
+}
+
+.ques1 label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.3rem;
+        font-family: "Space Mono", monospace;
+        cursor: pointer;
+        color: #495567;
+        
+}
+
+.ques1 label span {
+        font-family:  "Lexend Deca", sans-serif;
+        color: #FCB72B;
+        font-size: 2rem;
+        transform: rotate(90deg);
+        transition: transform 1s ease-in-out;
+}
+
+.content1 {
+        font-size: 14px;
+        font-family: "Lexend Deca", sans-serif;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 1s ease-in-out;
+}
+
+.ques1 input[type="checkbox"] {
+        display: none;
+}
+
+.ques1 input[type="checkbox"]:checked+.content1 {
+        max-height: 400px;
+}
+
+
+
+
+
+/* sections 2 */
+
+
+
+
+.heading2{
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 0px;
+}
+
+.heading1 h2 {
+        font-size: 2.5rem;
+        color: #495567;
+        font-family: "Space Mono", monospace;
+}
+
+.ques1 {
+        width: 45vw;
+        background-color: #F2F5F9;
+        display: flex;
+        margin: 10px 0px;
+        padding: 20px;
+        color: #495567;
+        flex-direction: column;
+}
+
+.ques1 label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.3rem;
+        font-family: "Space Mono", monospace;
+        cursor: pointer;
+        color: #495567;
+        
+}
+
+.ques1 label span {
+        font-family:  "Lexend Deca", sans-serif;
+        color: #FCB72B;
+        font-size: 2rem;
+        transform: rotate(90deg);
+        transition: transform 1s ease-in-out;
+}
+
+.content1 {
+        font-size: 14px;
+        font-family: "Lexend Deca", sans-serif;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 1s ease-in-out;
+}
+
+.ques1 input[type="checkbox"] {
+        display: none;
+}
+
+.ques1 input[type="checkbox"]:checked+.content1 {
+        max-height: 400px;
+}

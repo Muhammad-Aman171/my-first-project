@@ -1,0 +1,46 @@
+.locationHeader {
+        height: 150px;
+        font: 3rem "Space Mono", Space Mono;
+        background: url(../../public/assets/Bitmap\ 12.png) no-repeat center/cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+}
+
+.locationHeader h1 {
+        color: white;
+        margin: 3% 0px 0px 8%;
+}
+
+#bitmapimg14 {
+        color: white;
+        width: 900px;
+        margin: 100px 181px;
+        height: 500px;
+}
+
+.contactCard {
+        color: #495567;
+        width: 1030px;
+        margin: 100px 115px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+}
+
+.contactCard h1 {
+        font-family: "space Mono", space Mono;
+        font-size: 3rem;
+        width: 330px
+}
+
+.contactCard p {
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 15px;
+        color: #939CAA;
+        width: 402px;
+}
