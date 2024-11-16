@@ -1,5 +1,5 @@
 import React from 'react'
-import Image, {StaticImageData} from 'next/image'
+import Image from 'next/image'
 
 import Css from './aboutCard.module.css'
 import {aboutCardProps} from '@/types/aboutTypes'

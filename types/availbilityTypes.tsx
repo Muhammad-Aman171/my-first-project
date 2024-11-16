@@ -1,10 +1,9 @@
 import { StaticImageData } from "next/image"
-// import { ButtonProps } from '@/types/availbilityTypes';
 
 export type Availbilityprops = {
     heading2?: string,
     paragraph?: string,
-    imgsrc?: StaticImageData,
+    imgsrc?: string | StaticImageData,
 
 }
 

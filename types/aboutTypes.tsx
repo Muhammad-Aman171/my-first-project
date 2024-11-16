@@ -6,7 +6,7 @@ export type aboutBodyprops = {
 }
 
 export type aboutCardProps = {
-    src: string | StaticImageData ;
+    src: StaticImageData ;
     count ?: string;
     heading?: string;
     paragraph?: string;

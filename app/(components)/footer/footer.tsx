@@ -2,7 +2,6 @@ import React from 'react'
 import Css from './footer.module.css'
 
 
-
 export default function Footer() {
     return (
         <div>
@@ -50,9 +49,9 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className={Css.icons}>
-                        <box-icon id={Css.facebook} name='facebook' type='logo' color='#fcb72b' ></box-icon>
+                        {/* <box-icon id={Css.facebook} name='facebook' type='logo' color='#fcb72b' ></box-icon>
                         <box-icon type='logo' name='twitter' color='#fcb72b'></box-icon>
-                        <box-icon name='instagram-alt' type='logo' color='#fcb72b' ></box-icon>
+                        <box-icon name='instagram-alt' type='logo' color='#fcb72b' ></box-icon> */}
 
                     </div>
                 </div>

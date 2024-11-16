@@ -1,4 +1,5 @@
 import React from 'react'
+import 'boxicons/css/boxicons.min.css'
 import Image from 'next/image'
 import imgpath from '@/public/assets/Path 2.png'
 import arrimg from '@/public/assets/Group 8 Copy.png'
