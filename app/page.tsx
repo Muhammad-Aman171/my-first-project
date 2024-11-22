@@ -69,7 +69,7 @@ export default function page() {
             />
             <Availbility
               imgsrc={Ridescooter}
-              heading2="Enjoy the ride"
+              // heading2="Enjoy the ride"
               paragraph="Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps."
             />
           </div>
