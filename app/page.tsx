@@ -80,9 +80,9 @@ export default function page() {
         {/* the homeBody is started */}
         <div className={"homepage1"}>
           <HomeBody
-            h1Heading="Easy to use riding telemetry"
-            paragraph="The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app."
-            btnHeading="Learn More"
+            // h1Heading="Easy to use riding telemetry"
+            // paragraph="The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app."
+            // btnHeading="Learn More"
           />
           <Image src={Bitmap2} alt="bitmap img does not show" id="bitmapimg2" />
         </div>
